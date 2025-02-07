@@ -1,0 +1,75 @@
+As a part of MOD550 Assignment 1, I have reviewed three GitHub repositories, namely, fastF1, rugbypy, and DigitalHealthData.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1).
+Review of Fast-F1 GitHub https://github.com/theOehrly/Fast-F1/tree/master in-terms of community standards.
+
+Introduction: FastF1 is a python package for accessing and analyzing Formula 1 results, schedules, timing data and telemetry.
+
+Main Features
+    Access to F1 timing data, telemetry, sessions results and more
+    Full support for Ergast to access current and historical F1 data
+    All data is provided in the form of extended Pandas DataFrames to make working with the data easy while having powerful tools available
+    Adds custom functions to the Pandas objects specifically to make working with F1 data quick and simple
+    Integration with Matplotlib to facilitate data visualization
+    Implements caching for all API requests to speed up your scripts
+
+Documentation: The project offers comprehensive documentation, including a detailed [README.md](https://github.com/theOehrly/Fast-F1/blob/master/README.md) and an extensive [online documentation site](https://theoehrly.github.io/Fast-F1/), aiding users in understanding and utilizing the library effectively.
+
+Runnability: once the GitHub has been cloned the program runs.
+
+requirements.txt lays out the libraries required to allow the program to run.
+
+Code of Conduct: The repository includes a [Code of Conduct](https://github.com/theOehrly/Fast-F1/blob/master/CODE_OF_CONDUCT.md), promoting a respectful and collaborative environment for contributors.
+
+Testing: Files like `conftest.py` and `pytest.ini` suggest the use of the `pytest` framework for testing, emphasizing the importance of automated testing in the development process.
+
+Examples: there are many examples provided of plots and data extractions useful for the user to apply to their own desired plots.
+
+License: MIT license.
+
+Overall this GitHub adheres well to community standards, has good functionality and examples and is well maintained.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2).
+Review of rugbypy GitHub https://github.com/seanyboi/rugbypy/blob/main/README.md in-terms of community standards
+
+Introduction: rugbypy is a Python package that aims to make rugby data more available to aid in the development of rugby analytics.
+
+Documentation: README.md is somewhat short and limited. It does however allow you to get the program working by giving you the instruction to pip install rugbypy.
+
+Runnability: although the program does work once cloned, there are many limitations to the data that can be accessed as described in the above example.
+
+Requirements.txt informs the user correctly of which libraries to have installed to allow the program to function.
+
+Code of Conduct: missing.
+
+Testing: there is no information about testing the code nor any programs from the author to test on your own.
+
+Examples of what you can do with the program are fairly limited.
+
+License: Apache license.
+
+Overall it is a more limited GitHub repository compared with FastF1. Still... pretty cool and useful for the Six Nations starting on Friday!!!
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3).
+Review of DigitalHealthData GitHub https://github.com/openPfizer/DigitalHealthData/tree/master in-terms of community standards
+
+Introduction: This python 3 code base is a collection of libraries to extract and visualize health data from digital biomarkers from AppleWatch data. It has been created by pharmaceutical giant pfizer.
+
+Documentation: README.md is extensive and further documentation is found at https://openpfizer.github.io/DigitalHealthData/.
+
+Runnability: when cloned, the program does work. However it did take quite a bit of debugging in going in and correcting the sourceName of the device. I also had to change the name of my iPhone from Aitken's iPhone to Aitken_iPhone and Aitken's Apple Watch to Aitken_Apple_Watch... lesson learned.
+
+Requirements.txt informs the user correctly of which libraries to have installed to allow the program to function.
+
+Code of Conduct: missing.
+
+Testing: the documentation provides many examples from which you can test the code. I was able to export all of my apple watch data and create the desired plots. I did get caught out with a time zone adjustment -0500 vs +0100 for a while.
+
+Examples of what you can do with the program are quite extensive.
+
+License: Apache license.
+
+Overall it is a well designed and maintained GitHub with good functionality. This is a very useful tool.
